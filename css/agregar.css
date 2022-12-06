@@ -1,0 +1,20 @@
+.formulario1{
+    width: 40%;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .formulario1{
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .formulario1{
+        width: 100%;
+    }
+}

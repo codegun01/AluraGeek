@@ -1,0 +1,55 @@
+.container__productos{
+    background: #E5E5E5; 
+
+}
+
+.titulo__producto{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.contenedor__titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn__agregar{
+    background: #2A7AE4;
+    text-decoration: none;
+    color:white;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .btn__agregar{
+       width: 35%;
+       margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn__agregar{
+       width: 50%;
+       margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .titulo__producto{
+        font-size: 33px;
+    }
+    .btn__agregar{
+       width: 60%;
+       margin-bottom: 15px;
+    }
+}
+
